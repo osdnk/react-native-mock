@@ -15,6 +15,7 @@ const ReactNative = {
   Button: createMockComponent('Button'),
   DatePickerIOS: createMockComponent('DatePickerIOS'),
   DrawerLayoutAndroid: require('./components/DrawerLayoutAndroid'),
+  findNodeHandle: () => 1,
   Image: require('./components/Image'),
   ImageEditor: createMockComponent('ImageEditor'),
   ImageStore: createMockComponent('ImageStore'),
